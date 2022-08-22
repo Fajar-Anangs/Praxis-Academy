@@ -1,0 +1,98 @@
+1. Arp (Address Resolution Protocol)
+Output :
+Interface: 192.168.87.148 --- 0x11
+    Internet Address      Physical Address      Type                                                                           
+    192.168.87.173        72-85-3f-a6-e2-df     dynamic                                                                        
+    192.168.87.255        ff-ff-ff-ff-ff-ff     static                                                                         
+    224.0.0.22            01-00-5e-00-00-16     static                                                                         
+    224.0.0.251           01-00-5e-00-00-fb     static                                                                         
+    224.0.0.252           01-00-5e-00-00-fc     static                                                                         
+    224.77.77.77          01-00-5e-4d-4d-4d     static                                                                         
+    239.255.255.250       01-00-5e-7f-ff-fa     static                                                                         
+    255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+2. Cacls
+Menampilkan atau memodifikasi daftar kontrol akses diskresioner (DACL) pada file tertentu.
+Output :
+D:\Kuliah BUILTIN\Administrators:F
+    BUILTIN\Administrators:(OI)(CI)(IO)F                                                                                    
+    NT AUTHORITY\SYSTEM:F                                                                                                   
+    NT AUTHORITY\SYSTEM:(OI)(CI)(IO)F                                                                                       
+    NT AUTHORITY\Authenticated Users:C                                                                                      
+    NT AUTHORITY\Authenticated Users:(OI)(CI)(IO)C                                                                          
+    BUILTIN\Users:R                                                                                                         
+    BUILTIN\Users:(OI)(CI)(IO)(special access:)                                                                                                       
+                               GENERIC_READ                                                                                                            
+                               GENERIC_EXECUTE 
+
+3. cd 
+Menampilkan nama direktori saat ini atau mengubah direktori saat ini. Jika digunakan hanya dengan huruf drive
+Output
+C:\> cd D:\
+D:\> 
+
+4. Cls
+Untuk menutup command window yang sedang berjalan
+
+5. color
+Untuk mengubah warna tampilan pada command prompt window
+
+6. date
+Output :
+date /t
+Mon 08/22/2022
+
+7. dir
+Menampilkan direktori dan sub-direktori baru
+Output :
+
+8. diskpart
+Perintah untuk mengelola drive di computer
+
+9. md 
+membuat direktori baru 
+
+10. verify
+Output :
+C:\Users\ASUS>verify                                                                                                    
+VERIFY is off. 
+
+11. whoami
+Output :
+C:\Users\ASUS>whoami                                                                                                    
+laptop-pdspsr3a\asus 
+
+12. mkdir
+membuat direktori dan subdirektori baru
+
+13. hostname
+Menampilkan bagian nama host dari nama komputer lengkap komputer.
+
+14. title
+Mengubah judul pada tampilan command prompt
+
+15. ping
+Memverifikasi konektivitas tingkat IP ke komputer
+
+16. rd
+berfungsi untuk menghapus direktori
+
+17. rename
+berfungsi untuk merubah nama pada sebuah direktori
+
+18. time /t
+Menunjukkan waktu sekarang
+Output :
+11:22 AM
+
+19. select
+Output :
+select disk : berfungsi untuk Menunjukkan drive mana yang akan di pilih
+select part : berfungsi untuk Menunjukkan partisi mana yang akan di pilih
+
+20. list 
+Output :
+list disk : berfungsi untuk menampilkan list drive yang ada di dalam komputer
+list part : berfungsi untuk menampilkan list partisi yang ada di dalam komputer
+
+
